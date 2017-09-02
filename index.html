@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Workshop1</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	
 </head>
 <body>
@@ -87,20 +88,42 @@
 		</div>
 
 		<form method="POST" action="enviar.php">
+			<article class="divisor"></article>
+			<article class="completar">
 				<label for="name"> Name </label>
 				<input type="text" id="nombre" required>
-				<br>
+			</article>
+			<article class="divisor"></article>
+			<article class="completar">
 				<label for="correo">Email Address:</label>
 				<input type="email" name="correo" required>
-				<br>
+			</article>
+			<article class="divisor"></article>
+			<article class="completar">
 				<label for="number"> Phone Number </label>
-				<input type="number" id="telefono" required>
-				<br>
+				<input type="text" id="telefono" required>
+			</article>
+			<article class="divisor"></article>
+			<article class="completar">
 				<label for="mensaje">Mensaje:</label>
-				<textarea name="mensaje"></textarea>
-				<input type="submit" value="Enviar">
-			</form>
+				<textarea class="recuadro" name="mensaje"></textarea>
+				<article class="divisor"></article>
+				<input class="botonenviar" type="submit" value="Send">
+			</article>
+		</form>
 	</section>
+
+	<footer>
+	 	<div class="contenedor4">
+	 		<ul class="social">
+				<li><span class="ion-social-facebook icono facebook"></span></li>
+				<li><span class="ion-social-twitter icono twitter"></span></li>
+				<li><span class="ion-social-linkedin icono linkedin"></span></li>
+				<li><span class="ion-social-googleplus icono googleplus"></span></li>
+				<li><span class="ion-social-dribbble icono dribbble"></span></li>
+			</ul>
+		</div>
+	</footer>
 
 </body>
 </html>

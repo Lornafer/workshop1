@@ -167,16 +167,61 @@ h1{
 
 input{
 	border: none;
-	border-bottom: 2px solid #BFC0C0;
 }
 
 textarea{
 	border: none;
-	border-bottom: 2px solid #BFC0C0;
 }
 
-label{
+textarea .recuadro{
+	height: 50px;
+}
+
+article .completar{
+	width: 30px;
+	height: 50px;
+	border-top: 5px solid #BFC0C0;
+	border-bottom: 5px solid #BFC0C0;
+}
+.completar label{
 	font-family: "open-sans", sans-serif;
 	font-size: 15px;
 	color: #BFC0C0;
+	padding: 0px 20px;
+}
+
+.botonenviar{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	align-content: center;
+	background-color: #7DCFB6;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	font-family: "open-sans", sans-serif;
+	font-size: 15px;
+	color:white;
+}
+
+.divisor{
+	width: 600px;
+	height: 1px;
+	background-color: #BFC0C0;
+	margin: 15px;
+}
+
+footer{
+	background-color: #2E294E;
+	
+}
+
+.contenedor4{
+	max-width: 1600px;
+	margin: auto;
+	padding: 20px 200px;
+}
+
+.social li{
+	
 }
